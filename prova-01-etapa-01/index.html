@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prova 1 - Etapa 1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/missoes_espaciais_internacionais.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/IFTM.svg" alt="IFTM" width="30" height="24" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+              <a class="nav-link" href="missoes.html">Missões Espaciais</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- home -->
+      <div class="text-center mb-5">
+        <h1>Primeira Avaliação</h1>
+        <h1>Análise e Desenvolvimento de Sistemas</h1>
+        <h1>Tecnologias para Interfaces de Aplicações Web</h1>
+        <h1>Aluno: Leonardo Victor Ribeiro</h1>
+      </div>
+
+      <div class="container text-center mb-5">
+        <div class="card">
+          <div class="card-header">Missões Espaciais</div>
+          <div class="card-body">
+            <h5 class="card-title">Missões Espaciais</h5>
+            <p class="card-text">
+              A exploração espacial é a investigação do espaço sideral por meio
+              de tecnologias como telescópios e sondas espaciais. Desde o
+              lançamento do Sputnik 1 em 1957, a humanidade tem avançado
+              significativamente na compreensão do universo, enviando missões
+              tripuladas e não tripuladas para a Lua, Marte e outros corpos
+              celestes. A NASA, fundada em 1958, tem sido uma força motriz nesse
+              campo, com programas icônicos como Apollo, que levou o homem à
+              Lua, e as missões de exploração de Marte, como os rovers Spirit,
+              Opportunity, Curiosity e Perseverance. Essas missões não apenas
+              expandiram nosso conhecimento científico, mas também inspiraram
+              gerações e impulsionaram inovações tecnológicas que beneficiam a
+              vida na Terra.
+            </p>
+            <!-- Carrosel -->
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 5"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/foto1.png" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Foto 1</h5>
+                    <p>
+                      Imagem mostra a Terra "se pondo" em relação a visão do
+                      astronauta na Lua.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/foto2.jpg" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Foto 2</h5>
+                    <p>
+                      Christina Koch, Jeremy Hansen, Victor Glover e Reid
+                      Wiseman a bordo da Orion na Artemis 2.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/foto3.png" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Foto 3</h5>
+                    <p>
+                      Astronautas da Artemis 2 registram a Terra com imagem
+                      invertida; Brasil aparece à esquerda, sob nuvens.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/foto4.png" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Foto 4</h5>
+                    <p>
+                      Comparação entre imagens da Terra feitas em 1972 (Apollo
+                      17) e 2026 (Artemis II); foto mais recente foi invertida
+                      para facilitar a visualização.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/foto5.png" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Foto 5</h5>
+                    <p>Artemis 2 em eclipse - Nikon Z9.</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="bg-light">
+        <img
+          src="./img/IFTM.png"
+          class="rounded mx-auto d-block"
+          height="60"
+          alt="..."
+        />
+      </footer>
+    </div>
+  </body>
+</html>
